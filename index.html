@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep dive</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section aria-label="Introductie: Deep Dive">
+        <div class="clouds" aria-hidden="true">
+            <div class="cloud cloud-1"></div> 
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+            <div class="cloud cloud-4"></div>
+            <div class="cloud cloud-5"></div>
+        </div>
+        <h1>PORTFOLIO</h1>
+        <a href="#cta-stop" aria-label="Duik dieper naar de sectie over werkwijze">Dive in</a>
+        <div class="name-container">
+            <h2 aria-label="Ocean"></h2>
+        </div>
+    </section>
+
+    <section id="obsessions" aria-label="Leerdoelen en reflectie">
+        <div class="kb-parent parent" id="cta-stop">
+
+            <div class="wave-container">
+                <h2 class="wave-text">
+                    <span>L</span><span>e</span><span>e</span><span>r</span><span>d</span><span>o</span><span>e</span><span>l</span><span>e</span><span>n</span>
+                </h2>
+            </div>
+
+            <div class="kb-progress-wrap">
+                <div class="kb-progress-label">
+                    <span>Minor leerdoelen voortgang</span>
+                    <span class="kb-progress-count">2 / 6 behaald</span>
+                </div>
+                <div class="kb-progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" aria-label="Voortgang minor leerdoelen">
+                    <div class="kb-progress-fill" style="width:33%"></div>
+                </div>
+            </div>
+
+            <div class="kb-board">
+
+                <!-- Column 1 — Meesterproef -->
+                <div class="kb-col" data-col="meesterproef">
+                    <div class="kb-col-header">
+                        <span class="kb-col-dot" style="background:#8c6bd9"></span>
+                        <span class="kb-col-title">Meesterproef</span>
+                    </div>
+                    <p class="kb-col-desc">Nieuwe leerdoelen voor de meesterproef</p>
+
+                    <div class="kb-card">
+                        <input type="checkbox" id="cb-mp-1" class="kb-cb">
+                        <label for="cb-mp-1">
+                            <div class="kb-card-head">
+                                <h4 class="kb-card-title"> Mijn werk beter kunnen presenteren aan niet-technici</h4>
+                                <div class="kb-card-tags">
+                                    <span class="pill kb-tag--professioneel">Professioneel</span>
+                                </div>
+                                <p class="kb-card-preview">Elke ontwerpkeuze uitleggen zonder technische termen</p>
+                                <span class="kb-chevron" aria-hidden="true">▼</span>
+                            </div>
+                            <div class="kb-card-body">
+                                    <p>Ik merk dat ik technische keuzes moeilijk kan uitleggen aan mensen buiten de ICT. Voor de meesterproef wil ik bewust oefenen met het vertalen van wat ik bouw naar waarom het relevant is — zonder jargon.</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="kb-card">
+                        <input type="checkbox" id="cb-mp-2" class="kb-cb">
+                        <label for="cb-mp-2">
+                            <div class="kb-card-head">
+                                <h4 class="kb-card-title">Web performance begrijpen</h4>
+                                <div class="kb-card-tags">
+                                    <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
+                                </div>
+                                <p class="kb-card-preview">wat vertraagt een pagina en hoe fix je het</p>
+                                <span class="kb-chevron" aria-hidden="true">▼</span>
+                            </div>
+                            <div class="kb-card-body">
+                                <p>Na de talk van Kilian Valkhof begreep ik pas hoe de browser echt werkt — en hoeveel onnodige herberekeningen mijn eigen code veroorzaakte. Voor de meesterproef wil ik bewust meten met de devtools performance tab, layout thrashing voorkomen en weten wanneer ik will-change, requestAnimationFrame of lazy loading moet inzetten. </p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="kb-card">
+                        <input type="checkbox" id="cb-mp-3" class="kb-cb">
+                        <label for="cb-mp-3">
+                            <div class="kb-card-head">
+                                <h4 class="kb-card-title">Eerder feedback ophalen en itereren</h4>
+                                <div class="kb-card-tags">
+                                    <span class="pill kb-tag--professioneel">Professioneel</span>
+                                    <!-- <span class="pill kb-tag--samenwerking">Samenwerking</span> -->
+                                </div>
+                                <p class="kb-card-preview">Minimaal twee tussentijdse feedbackmomenten inplannen met medestudenten of opdrachtgever.</p>
+                                <span class="kb-chevron" aria-hidden="true">▼</span>
+                            </div>
+                            <div class="kb-card-body">
+                                    <p>Tijdens de minor merkte ik dat ik te lang solo doorwerkte voor ik iets liet zien. Voor de meesterproef wil ik minimaal twee tussentijdse feedbackmomenten inplannen — met medestudenten of de opdrachtgever.</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Column 2 — In progress -->
+                <div class="kb-col" data-col="ongoing">
+                    <div class="kb-col-header">
+                        <span class="kb-col-dot" style="background:#c8c050"></span>
+                        <span class="kb-col-title">In progress</span>
+                    </div>
+                    <p class="kb-col-desc">Nog niet volledig afgerond</p>
+
+                    <div class="kb-card">
+                        <input type="checkbox" id="cb-ip-1" class="kb-cb">
+                        <label for="cb-ip-1">
+                            <div class="kb-card-head">
+                                <h4 class="kb-card-title">Leren debuggen als professional </h4>
+                                <div class="kb-card-tags">
+                                    <span class="pill kb-tag--professioneel">Professioneel</span>
+                                    <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
+                                </div>
+                                <p class="kb-card-preview">browser devtools, network tab, performance profiler</p>
+                                <span class="kb-chevron" aria-hidden="true">▼</span>
+                            </div>
+                            <div class="kb-card-body">
+                                <p>Tot nu toe debugde ik vooral op gevoel — console.log hier, even kijken daar. Voor de meesterproef wil ik de devtools echt leren gebruiken als gereedschap: breakpoints zetten in de Sources tab, netwerkverzoeken analyseren in de Network tab, en bottlenecks opsporen in de Performance profiler. </p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Column 3 — Behaald -->
+                <div class="kb-col" data-col="done">
+                    <div class="kb-col-header">
+                        <span class="kb-col-dot" style="background:#42f578"></span>
+                        <span class="kb-col-title">Behaald</span>
+                    </div>
+                    <p class="kb-col-desc">Afgerond tijdens de minor</p>
+
+                    <div class="kb-card">
+                        <input type="checkbox" id="cb-d-1" class="kb-cb">
+                        <label for="cb-d-1">
+                            <div class="kb-card-head">
+                                <h4 class="kb-card-title">Backend: API Filteren</h4>
+                                <div class="kb-card-tags">
+                                    <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
+                                </div>
+                                <p class="kb-card-preview">Van kopiëren en hopen naar begrijpen wat er daadwerkelijk in de browser gebeurt.</p>
+                                <span class="kb-chevron" aria-hidden="true">▼</span>
+                            </div>
+                            <div class="kb-card-body">
+                                <p>Ik begrijp hoe ik API-fetch verzoeken optimaliseer door alleen
+                            specifieke velden (namen/foto's) op te halen en kan tonen op mijn webpagina.</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="kb-card">
+                        <input type="checkbox" id="cb-d-2" class="kb-cb">
+                        <label for="cb-d-2">
+                            <div class="kb-card-head">
+                                <h4 class="kb-card-title">Frontend: CSS animaties</h4>
+                                <div class="kb-card-tags">
+                                    <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
+                                </div>
+                                <p class="kb-card-preview">Timing is key</p>
+                                <span class="kb-chevron" aria-hidden="true">▼</span>
+                            </div>
+                            <div class="kb-card-body">
+                                <p>Ik snap de logica van mijn carrousels om een
+                            vloeiende 'infinite scroll' te realiseren zonder haperingen bij de overgang voor een
+                            onbepaalde aantal items, scroll animaties, viewtransitions.</p>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="leerdoelen" aria-label="Mijn leerdoelen voor Backend en Frontend">
+        <div class="grid-parent parent">
+
+            <div class="wave-container">
+                <h2 class="wave-text">
+                    <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span>
+                </h2>
+            </div>
+
+            <div class="projects-layout">
+                <div class="projects-bg">
+                    <div class="project-popover" id="project-popover" role="tooltip">
+                        <img class="popover-img" src="" alt="">
+                        <h3 class="popover-title"></h3>
+                        <p class="popover-desc"></p>
+                        <a class="popover-link" href="#" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+                    </div>
+                </div>
+                <div class="projects-list" id="projects-list"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section aria-label="Denkwijze en mindset">
+        <div class="parent" >
+            <div class="wave-container">
+                <h2 class="wave-text">
+                    <span>W</span><span>e</span><span>e</span><span>k</span><span>l</span> <span>y</span> <span></span><span>N</span><span>e</span><span>r</span><span>d</span>
+                </h2>
+            </div>
+
+            <div class="about-me-container" id="weekly-nerd-viewer">
+
+                <!-- LEFT SIDEBAR — speaker list -->
+                <div class="wn-sidebar">
+                    <p class="wn-sidebar-label">Sprekers</p>
+                    <ul class="wn-speaker-list" role="list" id="wn-speaker-list"></ul>
+                </div>
+
+                <!-- RIGHT PANEL — essay -->
+                <div class="wn-essay-panel" id="wn-essay-panel">
+                    <div class="wn-essay-meta">
+                        <span class="pill wn-essay-number" id="wn-essay-number">#1</span>
+                        <span class="pill wn-essay-date" id="wn-essay-date"></span>
+                    </div>
+                    <h3 class="wn-essay-title" id="wn-essay-title"></h3>
+                    <p class="wn-essay-subtitle" id="wn-essay-subtitle"></p>
+                    <hr class="about-divider">
+                    <div class="wn-essay-body" id="wn-essay-body"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="particle-container" aria-hidden="true"></div>
+    </section>
+
+
+    <button id="float-up" class="nav-button float-up-btn" aria-label="Scroll naar boven">&#9906;</button>
+    <button id="sink-down" class="nav-button sink-down-btn" aria-label="Scroll naar beneden">&#9880;</button>
+
+   
+</body>
+
+</html>
+<script src="script.js"></script>
+<script src="server.js"></script>
