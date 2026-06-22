@@ -1,4 +1,4 @@
-
+Alle aanpassingen van de Sprint0 website op volgorde van secties.
 
 Nieuwe Leerdoelen sectie
 <img width="1882" height="874" alt="image" src="https://github.com/user-attachments/assets/38d653e0-94b6-4e47-94d2-40c04e84d190" />
