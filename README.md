@@ -9,3 +9,6 @@ Nieuwe Projecten sectie
 
 Nieuwe Weeklynerds sectie
 <img width="1882" height="892" alt="image" src="https://github.com/user-attachments/assets/f6bf9947-9a30-4b76-a001-847e0d37c068" />
+
+Nieuwe  sectie nav
+<img width="230" height="882" alt="image" src="https://github.com/user-attachments/assets/33e78751-d1ca-4df0-8071-2edc001b1a05" />
