@@ -75,13 +75,13 @@ Debuggen was lange tijd iets wat ik deed op gevoel. Tijdens de Meesterproef dwon
 Wat ik mezelf nog wil blijven aanleren is eerder om hulp vragen. Ik werk graag dingen zelf uit, maar ik merkte dat ik soms te lang op een probleem bleef zitten terwijl een tweede blik van een teamgenoot het waarschijnlijk in een fractie van de tijd had opgelost.
 
 ### Uitgelichte Leerdoelen:
-- Iteratief werken
+- Iteratief werken,
 De feedbackmomenten met de opdrachtgever dwongen me om tussentijds bij te sturen in plaats van door te blijven bouwen op iets wat misschien toch niet klopte.
 
-- Debuggen als professional
+- Debuggen als professional,
 Ik ben de devtools steeds meer gaan gebruiken als echt gereedschap in plaats van blind console.log'en en hopen dat ik het probleem toevallig tegenkom.
 
-- API filteren
+- API filteren,
 Ik begrijp nu hoe ik fetch verzoeken optimaliseer door alleen de velden op te halen die ik echt nodig heb, in plaats van alles binnenhalen en daarna sorteren.
 
 ## De Minor
