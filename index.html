@@ -17,14 +17,28 @@
 <body>
     <section aria-label="Introductie: Deep Dive">
         <div class="clouds" aria-hidden="true">
-            <div class="cloud cloud-1"></div> 
+            <div class="cloud cloud-1"></div>
             <div class="cloud cloud-2"></div>
             <div class="cloud cloud-3"></div>
             <div class="cloud cloud-4"></div>
             <div class="cloud cloud-5"></div>
         </div>
-        <h1>PORTFOLIO</h1>
+
+        
+        <h1>Meesterschap Blog</h1>
         <a href="#cta-stop" aria-label="Duik dieper naar de sectie over werkwijze">Dive in</a>
+
+        
+            <div class="boat">
+                <div style="position:relative;width:90px;height:70px;">
+                    <div class="mast"></div>
+                    <div class="sail"></div>
+                </div>
+                <div class="deck"></div>
+                <div class="hull"></div>
+            </div>
+       
+
         <div class="name-container">
             <h2 aria-label="Ocean"></h2>
         </div>
@@ -42,28 +56,50 @@
             <div class="kb-progress-wrap">
                 <div class="kb-progress-label">
                     <span>Minor leerdoelen voortgang</span>
-                    <span class="kb-progress-count">2 / 6 behaald</span>
+                    <span class="kb-progress-count">6 / 6 behaald</span>
                 </div>
-                <div class="kb-progress-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" aria-label="Voortgang minor leerdoelen">
-                    <div class="kb-progress-fill" style="width:33%"></div>
+                <div class="kb-progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" aria-label="Voortgang minor leerdoelen">
+                    <div class="kb-progress-fill" style="width:100%"></div>
                 </div>
             </div>
 
             <div class="kb-board">
 
-                <!-- Column 1 — Meesterproef -->
+                <!-- Column 1 — Meesterproef (leeg) -->
                 <div class="kb-col" data-col="meesterproef">
                     <div class="kb-col-header">
                         <span class="kb-col-dot" style="background:#8c6bd9"></span>
                         <span class="kb-col-title">Meesterproef</span>
+                        <span class="kb-col-count"></span>
                     </div>
                     <p class="kb-col-desc">Nieuwe leerdoelen voor de meesterproef</p>
+                </div>
+
+                <!-- Column 2 — In progress (leeg) -->
+                <div class="kb-col" data-col="ongoing">
+                    <div class="kb-col-header">
+                        <span class="kb-col-dot" style="background:#c8c050"></span>
+                        <span class="kb-col-title">In progress</span>
+                        <span class="kb-col-count"></span>
+                    </div>
+                    <p class="kb-col-desc">Nog niet volledig afgerond</p>
+                </div>
+
+                <!-- Column 3 — Behaald -->
+                <div class="kb-col" data-col="done">
+                    <div class="kb-col-header">
+                        <span class="kb-col-dot" style="background:#42f578"></span>
+                        <span class="kb-col-title">Behaald</span>
+                        <span class="kb-col-count"></span>
+                    </div>
+                    <p class="kb-col-desc">Afgerond tijdens de minor</p>
 
                     <div class="kb-card">
                         <input type="checkbox" id="cb-mp-1" class="kb-cb">
                         <label for="cb-mp-1">
                             <div class="kb-card-head">
-                                <h4 class="kb-card-title"> Mijn werk beter kunnen presenteren aan niet-technici</h4>
+                                <h4 class="kb-card-title">Mijn werk beter kunnen presenteren aan niet-technici</h4>
                                 <div class="kb-card-tags">
                                     <span class="pill kb-tag--professioneel">Professioneel</span>
                                 </div>
@@ -71,7 +107,11 @@
                                 <span class="kb-chevron" aria-hidden="true">▼</span>
                             </div>
                             <div class="kb-card-body">
-                                    <p>Ik merk dat ik technische keuzes moeilijk kan uitleggen aan mensen buiten de ICT. Voor de meesterproef wil ik bewust oefenen met het vertalen van wat ik bouw naar waarom het relevant is — zonder jargon.</p>
+                                <p>Tijdens de Meesterproef had ik regelmatig contact met de opdrachtgever van Stichting
+                                    Videlio. Ik merkte dat ik in die gesprekken steeds beter kon uitleggen waarom we
+                                    bepaalde keuzes maakten, zonder meteen in technische termen te schieten. Het ging
+                                    niet altijd perfect, maar het werd zichtbaar beter naarmate het project vorderde.
+                                </p>
                             </div>
                         </label>
                     </div>
@@ -80,15 +120,19 @@
                         <input type="checkbox" id="cb-mp-2" class="kb-cb">
                         <label for="cb-mp-2">
                             <div class="kb-card-head">
-                                <h4 class="kb-card-title">Web performance begrijpen</h4>
+                                <h4 class="kb-card-title">Iteratief werken</h4>
                                 <div class="kb-card-tags">
                                     <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
                                 </div>
-                                <p class="kb-card-preview">wat vertraagt een pagina en hoe fix je het</p>
+                                <p class="kb-card-preview">Meer variëren tijdens het ontwerpproces in plaats van met het
+                                    eerste idee doorrennen</p>
                                 <span class="kb-chevron" aria-hidden="true">▼</span>
                             </div>
                             <div class="kb-card-body">
-                                <p>Na de talk van Kilian Valkhof begreep ik pas hoe de browser echt werkt — en hoeveel onnodige herberekeningen mijn eigen code veroorzaakte. Voor de meesterproef wil ik bewust meten met de devtools performance tab, layout thrashing voorkomen en weten wanneer ik will-change, requestAnimationFrame of lazy loading moet inzetten. </p>
+                                <p>De feedbackmomenten met de opdrachtgever dwongen me om tussentijds bij te sturen in
+                                    plaats van door te blijven bouwen op iets wat misschien toch niet klopte. Dat
+                                    patroon van laten zien, terugkoppelen en aanpassen voelde uiteindelijk natuurlijker
+                                    dan aan het begin van de minor.</p>
                             </div>
                         </label>
                     </div>
@@ -97,34 +141,28 @@
                         <input type="checkbox" id="cb-mp-3" class="kb-cb">
                         <label for="cb-mp-3">
                             <div class="kb-card-head">
-                                <h4 class="kb-card-title">Eerder feedback ophalen en itereren</h4>
+                                <h4 class="kb-card-title">Eerder feedback ophalen van teamgenoten</h4>
                                 <div class="kb-card-tags">
                                     <span class="pill kb-tag--professioneel">Professioneel</span>
-                                    <!-- <span class="pill kb-tag--samenwerking">Samenwerking</span> -->
                                 </div>
-                                <p class="kb-card-preview">Minimaal twee tussentijdse feedbackmomenten inplannen met medestudenten of opdrachtgever.</p>
+                                <p class="kb-card-preview">Vaker de meningen van anderen horen over de ontwerpkeuzes die
+                                    ik maak</p>
                                 <span class="kb-chevron" aria-hidden="true">▼</span>
                             </div>
                             <div class="kb-card-body">
-                                    <p>Tijdens de minor merkte ik dat ik te lang solo doorwerkte voor ik iets liet zien. Voor de meesterproef wil ik minimaal twee tussentijdse feedbackmomenten inplannen — met medestudenten of de opdrachtgever.</p>
+                                <p>In de Meesterproef werkten we met drie mensen en dat maakte het makkelijker om dit te
+                                    oefenen. Ik heb bewust momenten ingebouwd om te laten zien waar ik mee bezig was,
+                                    ook als het nog niet af was. Dat was soms ongemakkelijk maar leverde altijd iets op.
+                                </p>
                             </div>
                         </label>
                     </div>
-                </div>
-
-                <!-- Column 2 — In progress -->
-                <div class="kb-col" data-col="ongoing">
-                    <div class="kb-col-header">
-                        <span class="kb-col-dot" style="background:#c8c050"></span>
-                        <span class="kb-col-title">In progress</span>
-                    </div>
-                    <p class="kb-col-desc">Nog niet volledig afgerond</p>
 
                     <div class="kb-card">
                         <input type="checkbox" id="cb-ip-1" class="kb-cb">
                         <label for="cb-ip-1">
                             <div class="kb-card-head">
-                                <h4 class="kb-card-title">Leren debuggen als professional </h4>
+                                <h4 class="kb-card-title">Leren debuggen als professional</h4>
                                 <div class="kb-card-tags">
                                     <span class="pill kb-tag--professioneel">Professioneel</span>
                                     <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
@@ -133,19 +171,13 @@
                                 <span class="kb-chevron" aria-hidden="true">▼</span>
                             </div>
                             <div class="kb-card-body">
-                                <p>Tot nu toe debugde ik vooral op gevoel — console.log hier, even kijken daar. Voor de meesterproef wil ik de devtools echt leren gebruiken als gereedschap: breakpoints zetten in de Sources tab, netwerkverzoeken analyseren in de Network tab, en bottlenecks opsporen in de Performance profiler. </p>
+                                <p>Ik ben de devtools steeds meer gaan gebruiken als echt gereedschap. Netwerkrequests
+                                    controleren via de Network tab en gerichter zoeken naar wat er mis gaat in de
+                                    Sources tab zat er aan het einde van de minor redelijk in. De Performance profiler
+                                    gebruik ik nog niet structureel, maar ik weet nu tenminste waar ik moet kijken.</p>
                             </div>
                         </label>
                     </div>
-                </div>
-
-                <!-- Column 3 — Behaald -->
-                <div class="kb-col" data-col="done">
-                    <div class="kb-col-header">
-                        <span class="kb-col-dot" style="background:#42f578"></span>
-                        <span class="kb-col-title">Behaald</span>
-                    </div>
-                    <p class="kb-col-desc">Afgerond tijdens de minor</p>
 
                     <div class="kb-card">
                         <input type="checkbox" id="cb-d-1" class="kb-cb">
@@ -155,12 +187,13 @@
                                 <div class="kb-card-tags">
                                     <span class="pill kb-tag--inhoudelijk">Inhoudelijk</span>
                                 </div>
-                                <p class="kb-card-preview">Van kopiëren en hopen naar begrijpen wat er daadwerkelijk in de browser gebeurt.</p>
+                                <p class="kb-card-preview">Van kopiëren en hopen naar begrijpen wat er daadwerkelijk in
+                                    de browser gebeurt.</p>
                                 <span class="kb-chevron" aria-hidden="true">▼</span>
                             </div>
                             <div class="kb-card-body">
-                                <p>Ik begrijp hoe ik API-fetch verzoeken optimaliseer door alleen
-                            specifieke velden (namen/foto's) op te halen en kan tonen op mijn webpagina.</p>
+                                <p>Ik begrijp hoe ik API-fetch verzoeken optimaliseer door alleen specifieke velden op
+                                    te halen en kan die data tonen op mijn webpagina.</p>
                             </div>
                         </label>
                     </div>
@@ -177,14 +210,13 @@
                                 <span class="kb-chevron" aria-hidden="true">▼</span>
                             </div>
                             <div class="kb-card-body">
-                                <p>Ik snap de logica van mijn carrousels om een
-                            vloeiende 'infinite scroll' te realiseren zonder haperingen bij de overgang voor een
-                            onbepaalde aantal items, scroll animaties, viewtransitions.</p>
+                                <p>Ik snap de logica van carrousels voor een vloeiende infinite scroll zonder haperingen
+                                    bij de overgang, scroll animaties en view transitions.</p>
                             </div>
                         </label>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </section>
@@ -194,7 +226,7 @@
 
             <div class="wave-container">
                 <h2 class="wave-text">
-                    <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span>
+                    <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>e</span><span>n</span>
                 </h2>
             </div>
 
@@ -214,10 +246,11 @@
     </section>
 
     <section aria-label="Denkwijze en mindset">
-        <div class="parent" >
+        <div class="parent">
             <div class="wave-container">
                 <h2 class="wave-text">
-                    <span>W</span><span>e</span><span>e</span><span>k</span><span>l</span> <span>y</span> <span></span><span>N</span><span>e</span><span>r</span><span>d</span>
+                    <span>W</span><span>e</span><span>e</span><span>k</span><span>l</span> <span>y</span>
+                    <span></span><span>N</span><span>e</span><span>r</span><span>d</span>
                 </h2>
             </div>
 
@@ -247,13 +280,161 @@
         <div id="particle-container" aria-hidden="true"></div>
     </section>
 
+    <section aria-label="Reflectie op project, groei en minor">
+        <div class="reflectie-parent">
+            <div class="wave-container">
+                <h2 class="wave-text">
+                    <span>R</span><span>e</span><span>f</span><span>l</span><span>e</span><span>c</span><span>t</span><span>i</span><span>e</span>
+                </h2>
+            </div>
+
+            <div class="reflectie-grid">
+
+                <article class="reflectie-card" style="--reflectie-accent: #8c6bd9;">
+                    <input type="checkbox" id="rc-1" class="reflectie-cb">
+                    <label class="reflectie-header" for="rc-1">
+                        <span class="reflectie-label">01 — Project</span>
+                        <h3 class="reflectie-title">De Meesterproef</h3>
+                        <span class="reflectie-chevron" aria-hidden="true">▼</span>
+                    </label>
+                    <hr class="reflectie-divider">
+                    <div class="reflectie-body">
+                        <p>Voor de Meesterproef werkte ik met Romy, Eva en Thomas aan een nieuwe website voor
+                            Videlio. Het was de eerste keer dat ik aan een project werkte met
+                            een echte opdrachtgever, en dat voelde meteen anders dan alles wat ik
+                            daarvoor had gedaan. Als CMD'er voelde ik me wel redelijk goed voorbereid door alle vakken
+                            die we tot dit punt hebben gevolgd. We hebben namelijk best veel gehad over sprint iteratie,
+                            usertests, professioneel werken en verschillende casussen, maar nu waren ze allemaal
+                            gecombineerd en in praktijk gezet voor dit project.</p>
+                        <p>Het lastigste was niet het bouwen zelf, maar het afstemmen. Wie pakt wat op, hoe houd je
+                            elkaar op de hoogte, en hoe zorg je dat je code goed samenwerkt met wat een ander heeft
+                            geschreven. We hadden allemaal een eigen manier van werken en die moesten we ergens in het
+                            midden zien te vinden. Dat kostte in het begin meer tijd dan ik had verwacht, maar het werd
+                            wel makkelijker naarmate we beter wisten wat we aan elkaar hadden.</p>
+                        <p>Wat ik echt heb leren waarderen was het contact met de opdrachtgever. De momenten waarop we
+                            iets lieten zien en vroegen wat ze ervan vonden, waren bijna altijd productiever dan de
+                            sessies waarbij we te lang op eigen houtje doorwerkten. Feedback ophalen voelt soms als een
+                            onderbreking van het bouwen, maar in de praktijk voorkomt het dat je tijd steekt in iets wat
+                            toch niet de goede richting op gaat.</p>
+                        <p>Het project zelf vroeg ook om een andere manier van denken over toegankelijkheid, niet als
+                            iets wat je achteraf controleert maar als iets wat je in elke beslissing meeneemt. Dat was
+                            soms best lastig combineren met de snelheid die een teamproject vraagt, maar het heeft me
+                            wel bewuster gemaakt van hoe ik code schrijf.</p>
+                    </div>
+                </article>
+
+                <article class="reflectie-card" style="--reflectie-accent: #42f5c8;">
+                    <input type="checkbox" id="rc-2" class="reflectie-cb">
+                    <label class="reflectie-header" for="rc-2">
+                        <span class="reflectie-label">02 — Persoonlijk</span>
+                        <h3 class="reflectie-title">Mezelf</h3>
+                        <span class="reflectie-chevron" aria-hidden="true">▼</span>
+                    </label>
+                    <hr class="reflectie-divider">
+                    <div class="reflectie-body">
+                        <p>Aan het begin van de minor had ik al een basiskennis van HTML, CSS en JavaScript, maar ik
+                            merkte snel dat er een groot verschil zit tussen iets werkend krijgen en iets goed bouwen.
+                            De talks en opdrachten dwongen me om na te denken over keuzes die ik daarvoor gewoon niet
+                            maakte.</p>
+                        <p>Wat ik over mezelf heb geleerd is ik neig ernaar om te snel met het eerste idee door te
+                            zetten.
+                            Itereren voelt soms als tijdverlies, maar het levert bijna altijd een beter resultaat op.
+                            Dat is een patroon dat ik bewust wil blijven doorbreken, in code maar ook in
+                            design en samenwerking.</p>
+                        <p>Ik merkte ook dat ik toegankelijkheid aan het begin van de minor vooral zag als een set
+                            regels die je afvinkt. Na de talks van Johan Huijkman en Robbert Broersma begon ik het
+                            anders te zien, als een manier van denken die je vanaf het begin meeneemt, niet als
+                            controlemomenten achteraf. Dat heeft concreet invloed gehad op hoe ik code schrijf.</p>
+                        <p>Debuggen was lange tijd iets wat ik deed op gevoel. Tijdens de Meesterproef dwong
+                            de complexiteit van het project me om de devtools echt te leren gebruiken.</p>
+                        <p>Wat ik mezelf nog wil blijven aanleren is eerder om hulp vragen. Ik werk graag dingen
+                            zelf uit, maar ik merkte dat ik soms te lang op een probleem bleef zitten terwijl een
+                            tweede blik van een teamgenoot het waarschijnlijk in een fractie van de tijd had opgelost.
+                        </p>
+
+                        <div class="reflectie-highlights">
+                            Uitgelichte Leerdoelen
+                            <div class="reflectie-highlight">
+                                <span class="reflectie-highlight-label">Iteratief werken</span>
+                                <p>De feedbackmomenten met de opdrachtgever dwongen me om tussentijds bij te sturen in
+                                    plaats van door te blijven bouwen op iets wat misschien toch niet klopte.</p>
+                            </div>
+                            <div class="reflectie-highlight">
+                                <span class="reflectie-highlight-label">Debuggen als professional</span>
+                                <p>Ik ben de devtools steeds meer gaan gebruiken als echt gereedschap in plaats van
+                                    blind console.log'en en hopen dat ik het probleem toevallig tegenkom.</p>
+                            </div>
+                            <div class="reflectie-highlight">
+                                <span class="reflectie-highlight-label">API filteren</span>
+                                <p>Ik begrijp nu hoe ik fetch verzoeken optimaliseer door alleen de velden op te halen
+                                    die ik echt nodig heb, in plaats van alles binnenhalen en daarna sorteren.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="reflectie-card" style="--reflectie-accent: #6b99d9;">
+                    <input type="checkbox" id="rc-3" class="reflectie-cb">
+                    <label class="reflectie-header" for="rc-3">
+                        <span class="reflectie-label">03 — Geheel</span>
+                        <h3 class="reflectie-title">De minor</h3>
+                        <span class="reflectie-chevron" aria-hidden="true">▼</span>
+                    </label>
+                    <hr class="reflectie-divider">
+                    <div class="reflectie-body">
+                        <p>De minor Web Design & Development was intensiever dan ik had verwacht, maar ook veel
+                            interessanter. Ik had niet gedacht dat ik in zo'n korte tijd zoveel over browsers,
+                            toegankelijkheid, privacy en het web als infrastructuur zou leren. De sprekers van de Weekly
+                            Nerd gaven steeds een ander perspectief, en dat zorgde ervoor dat ik steeds opnieuw moest
+                            nadenken over dingen die ik al dacht te begrijpen.</p>
+                        <p>Als ik eerlijk ben, had ik soms liever meer tijd gehad om dieper op één onderwerp in te gaan.
+                            Maar ik begrijp ook dat de breedte van de minor juist de bedoeling is: laten zien hoe groot
+                            en hoe gelaagd het vakgebied eigenlijk is. En dat is gelukt. Ik ga hier weg met meer vragen
+                            dan antwoorden, maar wel met het gevoel dat ik weet waar ik die antwoorden moet zoeken.</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
 
     <button id="float-up" class="nav-button float-up-btn" aria-label="Scroll naar boven">&#9906;</button>
+
+    <nav class="section-nav" id="section-nav" aria-label="Sectie navigatie">
+        <ol class="section-nav-list">
+            <li><button class="section-nav-btn" data-section="0" aria-label="Intro"><span
+                        class="section-nav-label">Titel</span><span class="section-nav-dot"></span></button></li>
+            <li><button class="section-nav-btn" data-section="1" aria-label="Leerdoelen"><span
+                        class="section-nav-label">Leerdoelen</span><span class="section-nav-dot"></span></button></li>
+            <li><button class="section-nav-btn" data-section="2" aria-label="Projects"><span
+                        class="section-nav-label">Projecten</span><span class="section-nav-dot"></span></button></li>
+            <li><button class="section-nav-btn" data-section="3" aria-label="Weekly Nerd"><span
+                        class="section-nav-label">Weekly Nerd</span><span class="section-nav-dot"></span></button></li>
+            <li><button class="section-nav-btn" data-section="4" aria-label="Reflectie"><span
+                        class="section-nav-label">Reflectie</span><span class="section-nav-dot"></span></button></li>
+        </ol>
+    </nav>
+
     <button id="sink-down" class="nav-button sink-down-btn" aria-label="Scroll naar beneden">&#9880;</button>
 
-   
+    <div id="eel">
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+        <div class="eel-seg"></div>
+    </div>
 </body>
 
 </html>
 <script src="script.js"></script>
+<script src="kanban.js"></script>
 <script src="server.js"></script>
