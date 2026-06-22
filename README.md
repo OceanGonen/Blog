@@ -51,3 +51,41 @@ Bij het opstarten geeft een forEach elke div zijn eigen grootte, kleur en opacit
 De beweging werkt via twee stappen. Eerst berekent de orbit een punt rondom de muis, een ellips die continu rondgaat via orbitAngle die elke frame een klein beetje ophoog gaat.
 Daarna trekt elk volgend segment zich naar het vorige toe. Als de afstand groter is dan SEG_LEN pixels schuift het segment op totdat de afstand weer klopt. Zo ontstaat de slangbeweging automatisch zonder dat je die apart hoeft te animeren.
 <img width="932" height="509" alt="image" src="https://github.com/user-attachments/assets/e0a06e4b-0841-4757-9ae7-19eebc48ca4e" />
+
+# Reflectie
+
+## Meesterproef
+Voor de Meesterproef werkte ik met Romy, Eva en Thomas aan een nieuwe website voor Videlio. Het was de eerste keer dat ik aan een project werkte met een echte opdrachtgever, en dat voelde meteen anders dan alles wat ik daarvoor had gedaan. Als CMD'er voelde ik me wel redelijk goed voorbereid door alle vakken die we tot dit punt hebben gevolgd. We hebben namelijk best veel gehad over sprint iteratie, usertests, professioneel werken en verschillende casussen, maar nu waren ze allemaal gecombineerd en in praktijk gezet voor dit project.
+
+Het lastigste was niet het bouwen zelf, maar het afstemmen. Wie pakt wat op, hoe houd je elkaar op de hoogte, en hoe zorg je dat je code goed samenwerkt met wat een ander heeft geschreven. We hadden allemaal een eigen manier van werken en die moesten we ergens in het midden zien te vinden. Dat kostte in het begin meer tijd dan ik had verwacht, maar het werd wel makkelijker naarmate we beter wisten wat we aan elkaar hadden.
+
+Wat ik echt heb leren waarderen was het contact met de opdrachtgever. De momenten waarop we iets lieten zien en vroegen wat ze ervan vonden, waren bijna altijd productiever dan de sessies waarbij we te lang op eigen houtje doorwerkten. Feedback ophalen voelt soms als een onderbreking van het bouwen, maar in de praktijk voorkomt het dat je tijd steekt in iets wat toch niet de goede richting op gaat.
+
+Het project zelf vroeg ook om een andere manier van denken over toegankelijkheid, niet als iets wat je achteraf controleert maar als iets wat je in elke beslissing meeneemt. Dat was soms best lastig combineren met de snelheid die een teamproject vraagt, maar het heeft me wel bewuster gemaakt van hoe ik code schrijf.
+
+## Mezelf
+Aan het begin van de minor had ik al een basiskennis van HTML, CSS en JavaScript, maar ik merkte snel dat er een groot verschil zit tussen iets werkend krijgen en iets goed bouwen. De talks en opdrachten dwongen me om na te denken over keuzes die ik daarvoor gewoon niet maakte.
+
+Wat ik over mezelf heb geleerd is ik neig ernaar om te snel met het eerste idee door te zetten. Itereren voelt soms als tijdverlies, maar het levert bijna altijd een beter resultaat op. Dat is een patroon dat ik bewust wil blijven doorbreken, in code maar ook in design en samenwerking.
+
+Ik merkte ook dat ik toegankelijkheid aan het begin van de minor vooral zag als een set regels die je afvinkt. Na de talks van Johan Huijkman en Robbert Broersma begon ik het anders te zien, als een manier van denken die je vanaf het begin meeneemt, niet als controlemomenten achteraf. Dat heeft concreet invloed gehad op hoe ik code schrijf.
+
+Debuggen was lange tijd iets wat ik deed op gevoel. Tijdens de Meesterproef dwong de complexiteit van het project me om de devtools echt te leren gebruiken.
+
+Wat ik mezelf nog wil blijven aanleren is eerder om hulp vragen. Ik werk graag dingen zelf uit, maar ik merkte dat ik soms te lang op een probleem bleef zitten terwijl een tweede blik van een teamgenoot het waarschijnlijk in een fractie van de tijd had opgelost.
+
+### Uitgelichte Leerdoelen:
+- Iteratief werken
+De feedbackmomenten met de opdrachtgever dwongen me om tussentijds bij te sturen in plaats van door te blijven bouwen op iets wat misschien toch niet klopte.
+
+- Debuggen als professional
+Ik ben de devtools steeds meer gaan gebruiken als echt gereedschap in plaats van blind console.log'en en hopen dat ik het probleem toevallig tegenkom.
+
+- API filteren
+Ik begrijp nu hoe ik fetch verzoeken optimaliseer door alleen de velden op te halen die ik echt nodig heb, in plaats van alles binnenhalen en daarna sorteren.
+
+## De Minor
+De minor Web Design & Development was intensiever dan ik had verwacht, maar ook veel interessanter. Ik had niet gedacht dat ik in zo'n korte tijd zoveel over browsers, toegankelijkheid, privacy en het web als infrastructuur zou leren. De sprekers van de Weekly Nerd gaven steeds een ander perspectief, en dat zorgde ervoor dat ik steeds opnieuw moest nadenken over dingen die ik al dacht te begrijpen.
+
+Als ik eerlijk ben, had ik soms liever meer tijd gehad om dieper op één onderwerp in te gaan. Maar ik begrijp ook dat de breedte van de minor juist de bedoeling is: laten zien hoe groot en hoe gelaagd het vakgebied eigenlijk is. En dat is gelukt. Ik ga hier weg met meer vragen dan antwoorden, maar wel met het gevoel dat ik weet waar ik die antwoorden moet zoeken.
+
