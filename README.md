@@ -1,5 +1,10 @@
 Alle aanpassingen van de Sprint0 website op volgorde van secties.
 
+
+Nieuwe Intro sectie
+<img width="1888" height="885" alt="image" src="https://github.com/user-attachments/assets/cca7d226-ad57-4375-9e9b-8e1e8d5bc24c" />
+
+
 Nieuwe Leerdoelen sectie
 <img width="1882" height="874" alt="image" src="https://github.com/user-attachments/assets/38d653e0-94b6-4e47-94d2-40c04e84d190" />
 
