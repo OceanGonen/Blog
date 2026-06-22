@@ -6,3 +6,6 @@ Nieuwe Leerdoelen sectie
 
 Nieuwe Projecten sectie
 <img width="1883" height="890" alt="image" src="https://github.com/user-attachments/assets/d91c76bd-dbbc-4408-a8f2-91f9593e2f1c" />
+
+Nieuwe Weeklynerds sectie
+<img width="1882" height="892" alt="image" src="https://github.com/user-attachments/assets/f6bf9947-9a30-4b76-a001-847e0d37c068" />
