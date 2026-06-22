@@ -55,7 +55,7 @@ Daarna trekt elk volgend segment zich naar het vorige toe. Als de afstand groter
 # Reflectie
 
 ## Meesterproef
-Voor de Meesterproef werkte ik met Romy, Eva en Thomas aan een nieuwe website voor Videlio. Het was de eerste keer dat ik aan een project werkte met een echte opdrachtgever, en dat voelde meteen anders dan alles wat ik daarvoor had gedaan. Als CMD'er voelde ik me wel redelijk goed voorbereid door alle vakken die we tot dit punt hebben gevolgd. We hebben namelijk best veel gehad over sprint iteratie, usertests, professioneel werken en verschillende casussen, maar nu waren ze allemaal gecombineerd en in praktijk gezet voor dit project.
+Voor de Meesterproef werkte ik met Romy, Eva en Thomas aan een nieuwe website voor Videlio. Het was de eerste keer dat ik aan een project werkte met een echte opdrachtgever, en dat voelde meteen anders dan alles wat ik daarvoor had gedaan. Als CMD'er voelde ik me wel redelijk goed voorbereid door alle vakken die we tot dit punt hebben gevolgd. We hebben namelijk best veel gehad over sprint iteratie, usertests, professioneel werken en verschillende casussen, maar nu waren ze allemaal gecombineerd en in praktijk gezet voor dit project, want het wel op een goede manier spannend maakt.
 
 Het lastigste was niet het bouwen zelf, maar het afstemmen. Wie pakt wat op, hoe houd je elkaar op de hoogte, en hoe zorg je dat je code goed samenwerkt met wat een ander heeft geschreven. We hadden allemaal een eigen manier van werken en die moesten we ergens in het midden zien te vinden. Dat kostte in het begin meer tijd dan ik had verwacht, maar het werd wel makkelijker naarmate we beter wisten wat we aan elkaar hadden.
 
