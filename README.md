@@ -1,3 +1,5 @@
+# Meesterschap Blog
+Het is een iteratie op de one-pager die ik aan het begin van de minor maakte in Sprint 0, maar dan deels opnieuw opgebouwd met alles wat ik sindsdien heb geleerd.
 Alle aanpassingen van de Sprint0 website op volgorde van secties.
 
 ## Intro sectie
