@@ -37,6 +37,8 @@ Bij het laden bouwt een forEach de sidebar dynamisch op, voor elke spreker een k
 <img width="230" height="882" alt="image" src="https://github.com/user-attachments/assets/33e78751-d1ca-4df0-8071-2edc001b1a05" />
 De sidebar nav bestaat uit knoppen met een data-section attribuut dat de index van de bijbehorende sectie bijhoudt.
 Bij een klik roept hij simpelweg scrollToSection aan met die index, die dan smoothscrollt naar de bovenkant van die sectie via offsetTop.
+<img width="903" height="277" alt="image" src="https://github.com/user-attachments/assets/c12ecd54-bda9-465d-b0ce-448c110f2c9e" />
+
 <img width="515" height="128" alt="image" src="https://github.com/user-attachments/assets/1a033ef8-4e6a-4039-aa90-511e9f3f4571" />
 
 ## Nieuwe Mouse cursor animatie 
