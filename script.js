@@ -592,7 +592,7 @@ document.querySelectorAll('.section-nav-btn').forEach(btn => {
     const segs = Array.from(document.querySelectorAll('.eel-seg'));
     const COUNT = segs.length;
     const SEG_LEN = 12;
-    const ORBIT_RADIUS = 70;
+    const ORBIT_RADIUS = 140;
     const ORBIT_SPEED = 0.012;
 
     // Bron: ClaudeAI 
@@ -634,8 +634,8 @@ document.querySelectorAll('.section-nav-btn').forEach(btn => {
         const orbitX = mouse.x + Math.cos(orbitAngle) * ORBIT_RADIUS;
         const orbitY = mouse.y + Math.sin(orbitAngle) * ORBIT_RADIUS * 0.6;
 
-        headTarget.x += (orbitX - headTarget.x) * 0.04;
-        headTarget.y += (orbitY - headTarget.y) * 0.04;
+        headTarget.x += (orbitX - headTarget.x) * 0.01;
+        headTarget.y += (orbitY - headTarget.y) * 0.01;
 
         const head = positions[0];
         const dx = headTarget.x - head.x;
