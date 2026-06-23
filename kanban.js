@@ -26,7 +26,7 @@
         });
     }
 
-    // Bron: ChatGPT:
+    // Bron: ClaudeAI:
     function getDropTarget(col, y) {
         const cards = [...col.querySelectorAll('.kb-card:not(.dragging)')];
         return cards.find(card => {
