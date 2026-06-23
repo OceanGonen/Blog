@@ -39,7 +39,7 @@ De popover aan de linkerkant werkt via mouseenter op elke rij. Zodra je er overh
 
 ## Niewe Weeklynerds sectie
 <img width="1882" height="892" alt="image" src="https://github.com/user-attachments/assets/f6bf9947-9a30-4b76-a001-847e0d37c068" />
-Eigenlijk op dezlefde manier als met de projecten staan de sprekers als een array van objecten in je JS, elk met een naam, onderwerp, datum en een array van paragrafen als essay.
+Eigenlijk op dezlefde manier als met de projecten staan de sprekers als een array van objecten in JS, elk met een naam, onderwerp, datum en een array van paragrafen als essay.
 Bij het laden bouwt een forEach de sidebar dynamisch op, voor elke spreker een knop met naam en onderwerp. Als je op een knop klikt roept hij showEssay aan met de index van die spreker.
 <img width="596" height="350" alt="image" src="https://github.com/user-attachments/assets/c641f1f6-8338-4981-9169-bf6ea4b43076" /> <img width="500" height="235" alt="image" src="https://github.com/user-attachments/assets/fdc32672-d052-4c90-992c-396764b49832" />
 
