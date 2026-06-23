@@ -30,7 +30,7 @@ Maar als ik het goed begrijp kijkt getDropTarget welke kaart je muis voorbij is.
 
 ## Nieuwe Projecten sectie
 <img width="1883" height="890" alt="image" src="https://github.com/user-attachments/assets/d91c76bd-dbbc-4408-a8f2-91f9593e2f1c" />
-De projecten staan als een array van objecten in je JS, elk met een titel, beschrijving, technologieën, thumbnail en GitHub link. Met forEach bouwt de code voor elk project dynamisch een rij in de DOM, inclusief een afbeelding, tekst en pills voor de tech stack.
+De projecten staan als een array van objecten in JS, elk met een titel, beschrijving, technologieën, thumbnail en GitHub link. Met forEach bouwt de code voor elk project dynamisch een rij in de DOM, inclusief een afbeelding, tekst en pills voor de tech stack.
 De popover aan de linkerkant werkt via mouseenter op elke rij. Zodra je er overheen hovert vult hij de popover met de gegevens van dat project en zet hij een visible class erop die hem zichtbaar maakt via CSS. mouseleave op de hele layout haalt die class er weer af.
 <img width="766" height="290" alt="image" src="https://github.com/user-attachments/assets/6295568d-5a84-445e-bfb0-f57788450a3e" /> <img width="414" height="199" alt="image" src="https://github.com/user-attachments/assets/23fb696d-5b00-4076-bf12-685881e88475" />
 
@@ -39,7 +39,7 @@ De popover aan de linkerkant werkt via mouseenter op elke rij. Zodra je er overh
 
 ## Niewe Weeklynerds sectie
 <img width="1882" height="892" alt="image" src="https://github.com/user-attachments/assets/f6bf9947-9a30-4b76-a001-847e0d37c068" />
-Eigenlijk op dezlefde manier als met de projecten staan de sprekers als een array van objecten in je JS, elk met een naam, onderwerp, datum en een array van paragrafen als essay.
+Eigenlijk op dezlefde manier als met de projecten staan de sprekers als een array van objecten in JS, elk met een naam, onderwerp, datum en een array van paragrafen als essay.
 Bij het laden bouwt een forEach de sidebar dynamisch op, voor elke spreker een knop met naam en onderwerp. Als je op een knop klikt roept hij showEssay aan met de index van die spreker.
 <img width="596" height="350" alt="image" src="https://github.com/user-attachments/assets/c641f1f6-8338-4981-9169-bf6ea4b43076" /> <img width="500" height="235" alt="image" src="https://github.com/user-attachments/assets/fdc32672-d052-4c90-992c-396764b49832" />
 
